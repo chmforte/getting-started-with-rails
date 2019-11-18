@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Reference: https://guides.rubyonrails.org/getting_started.html
 
-Things you may want to cover:
+Getting started:
+```$ bundle install —path vendor/bundle```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If there are any issues with running ```$ bundle exec rails server```, it may be due to two things:
+1. ```$ curl -o- -L https://yarnpkg.com/install.sh | bash```
+2. Install Node.js
